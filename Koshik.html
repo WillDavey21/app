@@ -1,1 +1,44 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <title>Кошик</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body id="custom-body">
+
+
+  <aside class="side">
+    <button class="menu">≡</button>
+    <nav class="nav">
+      <a href="Notatki.html">Нотатки</a>
+      <a href="kalendar.html">Календар</a>
+      <a href="Koshik.html">Кошик</a>
+    </nav>
+  </aside>
+
+  <main class="main">
+    <div class="header">
+      <input type="text" class="search" placeholder="Пошук...">
+      <button class="settings">⚙️</button>
+    </div>
+    <h1 class="main-title">Кошик</h1>
+    <div id="trash-list" class="trash"></div>
+
+    <script src="koshik.js"></script>
+  </main>
+
+  <img id="hand" src="https://i.ibb.co/wN1SyYY6/hand.png" alt="Hand pointer" />
+  
+
+  <svg id="clicked-icon" xmlns="http://www.w3.org/2000/svg" fill="none"
+       viewBox="0 0 24 24" stroke="currentColor">
+    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+          d="M12 4v16m8-8H4" />
+  </svg>
+
+
+  <script src="cursor.js"></script>
+</body>
+</html>
 
